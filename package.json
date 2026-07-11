@@ -1,0 +1,17 @@
+{
+  "name": "smart-money-tracker",
+  "version": "1.0.0",
+  "description": "OKX Smart Money analytics — track top traders, capital flows, and market sentiment in real-time",
+  "bin": {
+    "smart-money": "./smart_money.py"
+  },
+  "keywords": ["okx", "smart-money", "whale-tracking", "sentiment", "trading"],
+  "author": "QTS Quant Lab",
+  "license": "MIT",
+  "okx-skill": {
+    "type": "analytics",
+    "category": "smart-money",
+    "requiresAuth": true,
+    "pricing": {"model": "paid", "price": 499, "currency": "USD", "interval": "month"}
+  }
+}
